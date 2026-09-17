@@ -28,6 +28,7 @@
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header" id="top">
       <a class="wordmark" href="#top">Elle Helvig</a>
       <nav aria-label="Primary navigation">
@@ -37,18 +38,18 @@
       </nav>
     </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy reveal">
           <p class="eyebrow">HR transformation × applied AI</p>
           <h1 id="hero-title">I turn workforce complexity into systems people can use.</h1>
-          <p class="hero-intro">I connect workforce strategy, responsible AI, people systems, and change leadership to deliver measurable adoption.</p>
+          <p class="hero-intro">I build practical HR AI tools, governance frameworks, and workflows that keep human judgment at the center. Explore the code, try the demos, and inspect the evaluation evidence.</p>
           <div class="actions">
             <a class="button primary" href="#work">Explore selected work <span>↓</span></a>
             <a class="button secondary" href="#contact">Connect <span>↗︎</span></a>
           </div>
         </div>
-        <div class="hero-visual reveal delay" aria-label="Selected impact: 38,000 employees, 99.74 percent completion, and 29 AI evaluation cases">
+        <div class="hero-visual reveal delay" aria-hidden="true">
           <div class="cross"></div>
           <div class="ring outer"></div>
           <div class="ring inner"></div>
@@ -64,7 +65,7 @@
       <div class="proof" aria-label="Career impact highlights">
         <div><strong>38K</strong><span>employees reached</span></div>
         <div><strong>99.74%</strong><span>cycle completion</span></div>
-        <div><strong>29</strong><span>structured AI evaluations</span></div>
+        <div><strong>29</strong><span>playbook evaluation scenarios</span></div>
       </div>
 
       <section class="work" id="work" aria-labelledby="work-title">
@@ -83,14 +84,15 @@
             <div class="tags"><span>AI transformation</span><span>Governance</span><span>Agent design</span><span>Evaluation</span><span>MCP agents</span></div>
             <div class="project-links">
               <a href="https://github.com/ellehelvig/hr-ai-transformation-playbook" target="_blank" rel="noreferrer">View repository ↗︎</a>
-              <a href="https://github.com/ellehelvig/hr-ai-transformation-playbook#readme" target="_blank" rel="noreferrer">Read documentation ↗︎</a>
+              <a href="https://github.com/ellehelvig/hr-ai-transformation-playbook#readme" target="_blank" rel="noreferrer">Start with the playbook ↗︎</a>
+              <a href="https://ellehelvig.github.io/hr-ai-transformation-playbook/08-roi-measurement/dashboard.html" target="_blank" rel="noreferrer">Explore ROI calculator ↗︎</a>
             </div>
           </div>
           <div class="evidence">
             <div><strong>37</strong><span>vetted HR AI use cases</span></div>
             <div><strong>29</strong><span>structured test cases</span></div>
             <div><strong>11</strong><span>working toolkit sections</span></div>
-            <div><strong>32</strong><span>passing tests behind a live MCP server</span></div>
+            <div><strong>52</strong><span>MCP tool tests in the repository</span></div>
           </div>
           <details class="case featured-case">
             <summary>Read case study <span>+</span></summary>
@@ -111,11 +113,13 @@
             <div class="tags"><span>Agent design</span><span>Human in the loop</span><span>Evaluation</span><span>MCP</span></div>
             <div class="project-links">
               <a href="https://github.com/ellehelvig/peopleops-resolution-agent" target="_blank" rel="noreferrer">View repository ↗︎</a>
+              <a href="https://peopleops-resolution-agent.onrender.com" target="_blank" rel="noreferrer">Try synthetic-data demo ↗︎</a>
+              <a href="https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-methodology.md" target="_blank" rel="noreferrer">Review evaluation evidence ↗︎</a>
             </div>
             <details class="case"><summary>Read case study <span>+</span></summary><div class="case-stack">
               <div><h4>Challenge</h4><p>HR resolution is intake, authorization, evidence, judgment, action, and learning, not a single answer. Most agent demos skip the parts that make it safe.</p></div>
-              <div><h4>Approach</h4><p>Deterministic safety gates that refuse prompt injection and third-party data requests before any tool access, minimum-field lookups, named human approval on every consequential recommendation, and a 60-case adversarial evaluation suite that runs in CI.</p></div>
-              <div><h4>Outcome</h4><p>A working reference agent where every control is enforced in code and covered by a test, so the governance claims can be checked rather than trusted.</p></div>
+              <div><h4>Approach</h4><p>Deterministic routing for tested injection, sensitive-data, Employee Relations, and legal scenarios; minimum-field lookups; a demo approval queue; and a 60-case evaluation baseline checked in CI.</p></div>
+              <div><h4>Outcome</h4><p>A reproducible reference implementation using synthetic data. Review the tests and limitations alongside the results. Production use still requires authenticated identities, role-based authorization, and validation beyond the included scenarios.</p></div>
             </div></details>
           </article>
 
@@ -125,6 +129,7 @@
             <h3>Ethical HR Copilot</h3>
             <p class="summary">A scenario-based decision support experience that helps HR leaders pressure-test sensitive workforce decisions before acting.</p>
             <div class="tags"><span>Responsible AI</span><span>Product design</span><span>HR strategy</span></div>
+            <div class="project-links"><a href="#contact">Ask about a walkthrough ↓</a></div>
             <details class="case"><summary>Read case study <span>+</span></summary><div class="case-stack">
               <div><h4>Challenge</h4><p>Turn responsible AI principles into guidance practical enough to use in a real HR workflow.</p></div>
               <div><h4>Approach</h4><p>Designed a structured intake, seven constraint flags, fairness checks, human-in-the-loop guardrails, and evidence-based recommendations.</p></div>
