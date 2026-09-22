@@ -24,6 +24,6 @@ Open http://127.0.0.1:8000. Check desktop and mobile widths, keyboard navigation
 
 ## Content maintenance
 
-Project counts should match the linked repositories. At the September 17, 2026 review, the playbook contains 37 use cases, 29 evaluation scenarios, 11 sections, and 52 MCP tool tests. Resolve has a separate 60-case deterministic evaluation baseline. These are different types of evidence and should not be combined into one performance metric.
+Project counts should match the linked repositories. At the September 22, 2026 review, the playbook contains 37 use cases, 29 evaluation scenarios, 6 MCP tools, and 52 MCP tool tests. Resolve has a separate 60-case deterministic evaluation baseline. These are different types of evidence and should not be combined into one performance metric.
 
 Career outcomes are owner-provided claims. Their supporting evidence is not in these public repositories. Demo results use synthetic data and do not establish production readiness.
