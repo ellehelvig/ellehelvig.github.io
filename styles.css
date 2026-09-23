@@ -5,7 +5,7 @@
   --surface-3:#171f31;
   --text:#f5f7fb;
   --muted:#a4aec2;
-  --subtle:#727d92;
+  --subtle:#8e98ad;
   --line:rgba(255,255,255,.1);
   --line-strong:rgba(255,255,255,.19);
   --violet:#8b7cff;
@@ -75,7 +75,7 @@ a{color:inherit;text-decoration:none}
   box-shadow:0 0 18px var(--violet)
 }
 .site-header nav{display:flex;gap:22px;align-items:center;color:var(--muted);font-size:.78rem;font-weight:600;letter-spacing:.04em}
-.site-header nav span{color:var(--line-strong)}
+.site-header nav span{color:var(--muted)}
 .site-header nav a{padding:9px 4px;transition:color .2s ease}
 .site-header nav a:hover{color:var(--text)}
 .eyebrow,.project-type{
@@ -128,10 +128,10 @@ a{color:inherit;text-decoration:none}
 .button:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.4)}
 .primary{
   border-color:transparent;
-  background:linear-gradient(135deg,var(--violet),#6657db);
+  background:linear-gradient(135deg,#6a5aec,#5344c4);
   box-shadow:0 14px 38px rgba(103,87,219,.3)
 }
-.primary:hover{background:linear-gradient(135deg,var(--violet-bright),var(--violet))}
+.primary:hover{background:linear-gradient(135deg,#6a5aec,#4a3cb8)}
 .secondary{background:rgba(255,255,255,.035)}
 .hero-visual{
   min-height:545px;
@@ -149,7 +149,7 @@ a{color:inherit;text-decoration:none}
   position:absolute;
   left:24px;
   top:22px;
-  color:var(--subtle);
+  color:var(--muted);
   font-size:.61rem;
   font-weight:700;
   letter-spacing:.19em
@@ -171,12 +171,12 @@ a{color:inherit;text-decoration:none}
   background:linear-gradient(145deg,var(--cyan),var(--violet));
   box-shadow:0 0 70px var(--glow)
 }
-.number{position:absolute;font:500 1rem/.75 var(--sans);letter-spacing:-.075em}
+.number{position:absolute;font:500 1rem/.75 var(--sans);letter-spacing:-.075em;text-shadow:0 2px 18px rgba(7,9,16,.55),0 1px 3px rgba(7,9,16,.5)}
 .n38{top:88px;left:38px;font-size:8.8rem}
-.n29{right:68px;bottom:46px;font-size:7.4rem}
+.n29{right:30px;bottom:92px;font-size:7.4rem}
 .vlabel{position:absolute;color:var(--muted);font-size:.63rem;font-weight:650;letter-spacing:.15em;line-height:1.65;text-transform:uppercase}
 .systems{top:205px;left:46px}
-.evals{right:28px;bottom:26px}
+.evals{right:32px;bottom:30px;text-align:right}
 .percent{
   position:absolute;
   left:36px;
@@ -191,7 +191,7 @@ a{color:inherit;text-decoration:none}
   backdrop-filter:blur(10px)
 }
 .percent strong{font:550 2rem/1 var(--sans);letter-spacing:-.055em}
-.percent span{color:var(--subtle);font-size:.57rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase}
+.percent span{color:var(--muted);font-size:.57rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase}
 .proof{
   min-height:140px;
   display:grid;
@@ -236,7 +236,7 @@ a{color:inherit;text-decoration:none}
     var(--surface);
   box-shadow:var(--shadow)
 }
-.index,.card-top{color:var(--subtle);font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.index,.card-top{color:var(--muted);font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
 .project-main h3,.project-card h3{
   margin:13px 0 19px;
   font:540 clamp(2.5rem,4.2vw,4.8rem)/.98 var(--sans);
@@ -413,8 +413,8 @@ footer{
   .outer{width:300px;height:300px}
   .inner{width:220px;height:220px}
   .disc{width:125px;height:125px;right:48px;bottom:82px}
-  .n29{right:40px;font-size:5.7rem}
-  .evals{right:18px}
+  .n29{right:20px;bottom:78px;font-size:5.7rem}
+  .evals{right:22px;bottom:26px}
   .percent{left:20px;bottom:25px}
   .featured,.project-card{padding:25px}
   .card-top{flex-direction:column}
