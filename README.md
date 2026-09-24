@@ -8,7 +8,7 @@ A portfolio of practical HR AI tools, responsible AI governance, and enterprise 
 
 - [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook)
 - [Resolve: PeopleOps Resolution Agent](https://github.com/ellehelvig/peopleops-resolution-agent)
-- Ethical HR Copilot (private prototype; walkthrough by request)
+- [Ethical HR Copilot](https://ethicalhrcopilotproject.lovable.app/) (live demo on synthetic data)
 - Global performance transformation
 - People systems prototyping
 
