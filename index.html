@@ -22,9 +22,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=d6860a5a" />
+    <link rel="stylesheet" href="styles.css?v=2c1e9a70" />
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"Person","name":"Elle Helvig","jobTitle":"HR Transformation and Applied AI Leader","url":"https://ellehelvig.github.io/","sameAs":["https://www.linkedin.com/in/ellehelvig/","https://github.com/ellehelvig"],"knowsAbout":["HR transformation","Workforce strategy","Responsible AI","Change leadership","People systems","Talent management"]}
+      {"@context":"https://schema.org","@type":"Person","name":"Elle Helvig","jobTitle":"HR Transformation and Applied AI Leader","url":"https://ellehelvig.github.io/","sameAs":["https://www.linkedin.com/in/ellehelvig/","https://github.com/ellehelvig"],"knowsAbout":["HR transformation","AI transformation","AI governance","Responsible AI","AI evaluation","Change leadership","People systems","Workforce strategy"]}
     </script>
   </head>
   <body>
@@ -56,16 +56,16 @@
           <div class="disc"></div>
           <strong class="number n38">38K</strong>
           <span class="vlabel systems">employees<br />reached</span>
-          <strong class="number n29">29</strong>
-          <span class="vlabel evals">AI evaluation<br />cases</span>
+          <strong class="number n29">37</strong>
+          <span class="vlabel evals">HR AI use<br />cases vetted</span>
           <div class="percent"><strong>99.74%</strong><span>completion</span></div>
         </div>
       </section>
 
       <div class="proof" aria-label="Career impact highlights">
-        <div><strong>38K</strong><span>employees reached</span></div>
+        <div><strong>38K</strong><span>employees in one global performance cycle</span></div>
         <div><strong>99.74%</strong><span>cycle completion</span></div>
-        <div><strong>29</strong><span>playbook evaluation scenarios</span></div>
+        <div><strong>95.2%</strong><span>pilot manager approval, Workday prototype</span></div>
       </div>
 
       <section class="work" id="work" aria-labelledby="work-title">
@@ -107,34 +107,34 @@
         <div class="project-grid">
           <article class="project-card">
             <div class="card-top"><span>02</span><span>Open source</span></div>
-            <p class="project-type">Governed AI agent</p>
+            <p class="project-type">Governed HR workflow</p>
             <h3>Resolve: PeopleOps Resolution Agent</h3>
-            <p class="summary">A reference implementation of an HR case-resolution agent that carries a request from intake to a grounded recommendation, a human approval checkpoint, and an audit trail.</p>
-            <div class="tags"><span>Agent design</span><span>Human in the loop</span><span>Evaluation</span><span>MCP</span></div>
+            <p class="summary">A rules-based prototype of the controls an HR agent needs: it carries a request from intake to a cited recommendation, a named human approval, and an audit trail. No language model yet, and a held-out test shows where one is needed.</p>
+            <div class="tags"><span>Workflow design</span><span>Human in the loop</span><span>Evaluation</span><span>MCP</span></div>
             <div class="project-links">
               <a href="https://github.com/ellehelvig/peopleops-resolution-agent" target="_blank" rel="noreferrer">View repository ↗︎</a>
               <a href="https://ellehelvig.github.io/peopleops-resolution-agent/" target="_blank" rel="noreferrer">Try synthetic-data demo ↗︎</a>
               <a href="https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-methodology.md" target="_blank" rel="noreferrer">Review evaluation evidence ↗︎</a>
             </div>
             <details class="case"><summary>Read case study <span>+</span></summary><div class="case-stack">
-              <div><h4>Challenge</h4><p>HR resolution is intake, authorization, evidence, judgment, action, and learning, not a single answer. Most agent demos skip the parts that make it safe.</p></div>
-              <div><h4>Approach</h4><p>Defined the use case and operating requirements, designed the workflow and human-review model, and built the prototype with AI-assisted development. The implementation includes deterministic routing for tested injection, sensitive-data, Employee Relations, and legal scenarios, plus a 60-case evaluation baseline.</p></div>
-              <div><h4>Outcome</h4><p>A reproducible reference implementation using synthetic data. Review the tests and limitations alongside the results. Production use still requires authenticated identities, role-based authorization, and validation beyond the included scenarios.</p></div>
+              <div><h4>Challenge</h4><p>HR resolution is intake, authorization, evidence, judgment, action, and learning, not a single answer. Most agent demos skip the parts that make it safe: what the system may read, when it must stop, and who approves.</p></div>
+              <div><h4>Approach</h4><p>Defined the use case and operating requirements, designed the workflow and human-review model, and built the prototype with AI-assisted development. Safety screening, eligibility, policy selection, and approval are ordinary code, so every decision is reproducible. The MCP interface gives a connected model no way to approve its own recommendation.</p></div>
+              <div><h4>Outcome</h4><p>Passes its 60-case regression suite. A separate set of 16 realistically phrased requests passes 0 of 16, and four Employee Relations or legal concerns go unescalated. That result defines the job for a language-model classifier and the bar it must clear. Synthetic data; production would also need authenticated identities and role-based authorization.</p></div>
             </div></details>
           </article>
 
           <article class="project-card">
             <div class="card-top"><span>03</span><span>Live demo</span></div>
-            <p class="project-type">Interactive prototype</p>
+            <p class="project-type">LLM prototype</p>
             <h3>Ethical HR Copilot</h3>
-            <p class="summary">A scenario-based decision support experience that helps HR leaders pressure-test sensitive workforce decisions before acting.</p>
+            <p class="summary">Decision support that helps HR leaders pressure-test a sensitive workforce decision before acting. It calls a hosted language model and returns a fixed structure: framing, options, fairness risks, and the points where a person must decide.</p>
             <div class="tags"><span>Responsible AI</span><span>Product design</span><span>HR strategy</span></div>
-            <div class="project-links"><a href="https://ethicalhrcopilotproject.lovable.app/" target="_blank" rel="noreferrer">Try the live demo ↗︎</a></div>
+            <div class="project-links"><a href="https://ethicalhrcopilotproject.lovable.app/" target="_blank" rel="noreferrer">Try the live demo ↗︎</a><span class="muted-note">Source code is private.</span></div>
             <img class="walkthrough" src="assets/copilot-walkthrough.gif" width="1200" height="814" loading="lazy" alt="Walkthrough: a high-risk AI screening vendor scenario loads into the Copilot, which frames the decision, names stakeholders, weighs options with stated confidence and assumptions, and lists decisions it will never automate.">
             <details class="case"><summary>Read case study <span>+</span></summary><div class="case-stack">
               <div><h4>Challenge</h4><p>Turn responsible AI principles into guidance practical enough to use in a real HR workflow.</p></div>
-              <div><h4>Approach</h4><p>Defined the decision-support workflow and designed a structured intake, seven constraint flags, fairness checks, human-review guardrails, and evidence-based recommendations. Built the prototype with AI-assisted development.</p></div>
-              <div><h4>Outcome</h4><p>A working prototype that makes risk visible without removing human judgment from consequential decisions.</p></div>
+              <div><h4>Approach</h4><p>Defined the decision-support workflow and designed a structured intake with seven context options (such as unionized or frontline-heavy workforces) and a required output structure. Built the prototype with AI-assisted development.</p></div>
+              <div><h4>Outcome</h4><p>A working prototype that makes risk visible without removing human judgment. The fairness review and confidence levels are written by the model, not calculated, so they prompt a person's thinking rather than replace it. It has no formal evaluation suite yet.</p></div>
             </div></details>
           </article>
 
