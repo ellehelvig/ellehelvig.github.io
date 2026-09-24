@@ -8,7 +8,6 @@ A portfolio of practical HR AI tools, responsible AI governance, and enterprise 
 
 - [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook)
 - [Resolve: PeopleOps Resolution Agent](https://github.com/ellehelvig/peopleops-resolution-agent)
-- [Ethical HR Copilot](https://ethicalhrcopilotproject.lovable.app/) (live demo on synthetic data; source private)
 - Global performance transformation
 - People systems prototyping
 
@@ -24,6 +23,6 @@ Open http://127.0.0.1:8000. Check desktop and mobile widths, keyboard navigation
 
 ## Content maintenance
 
-Project counts should match the linked repositories. At the September 24, 2026 review, the playbook contains 37 use cases, 29 evaluation scenarios, 6 MCP tools, and 52 MCP tool tests. Resolve has a separate 60-case deterministic baseline (60 of 60) and a 16-case held-out set (0 of 16). These are different types of evidence and should not be combined into one performance metric. Resolve contains no language model; the Copilot does, and has no evaluation suite.
+Project counts should match the linked repositories. At the September 24, 2026 review, the playbook contains 37 use cases, 29 evaluation scenarios, 6 MCP tools, and 52 MCP tool tests. Resolve has a separate 60-case deterministic baseline (60 of 60) and a 16-case held-out set (0 of 16). These are different types of evidence and should not be combined into one performance metric. Resolve contains no language model.
 
 Career outcomes are owner-provided claims. Their supporting evidence is not in these public repositories. Demo results use synthetic data and do not establish production readiness.
