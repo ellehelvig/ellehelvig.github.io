@@ -98,7 +98,7 @@
             <div class="card-top"><span>02</span><span>Open source</span></div>
             <p class="project-type">Governed HR workflow</p>
             <h3>Resolve: PeopleOps Resolution Agent</h3>
-            <p class="summary">A rules-based prototype of the controls an HR agent needs: it carries a request from intake to a cited recommendation, a named human approval, and an audit trail. No language model yet, and a held-out test shows where one is needed.</p>
+            <p class="summary">A rules-based prototype of the controls an HR agent needs: it carries a request from intake to a cited recommendation, a named human approval, and an audit trail. No language model is used. A held-out test exposed missed sensitive concerns, so production use is withheld.</p>
             <div class="tags"><span>Workflow design</span><span>Human in the loop</span><span>Evaluation</span><span>MCP</span></div>
             <div class="project-links">
               <a href="https://github.com/ellehelvig/peopleops-resolution-agent" target="_blank" rel="noreferrer">View repository ↗︎</a>
@@ -108,7 +108,7 @@
             <details class="case"><summary>Read case study <span>+</span></summary><div class="case-stack">
               <div><h4>Challenge</h4><p>HR resolution is intake, authorization, evidence, judgment, action, and learning, not a single answer. Most agent demos skip the parts that make it safe: what the system may read, when it must stop, and who approves.</p></div>
               <div><h4>Approach</h4><p>Defined the use case and operating requirements, designed the workflow and human-review model, and built the prototype with AI-assisted development. Safety screening, eligibility, policy selection, and approval are ordinary code, so every decision is reproducible. The MCP interface gives a connected model no way to approve its own recommendation.</p></div>
-              <div><h4>Outcome</h4><p>Passes its 60-case regression suite. A separate set of 16 realistically phrased requests passes 0 of 16, and four Employee Relations or legal concerns go unescalated. That result defines the job for a language-model classifier and the bar it must clear. Synthetic data; production would also need authenticated identities and role-based authorization.</p></div>
+              <div><h4>Outcome</h4><p>Passes its 60-case regression suite. A separate set of 16 realistically phrased requests passes 0 of 16, and four Employee Relations or legal concerns go unescalated. The original result is historical evidence, not field accuracy. Once used in development these become regression cases; a redesign needs new unseen tests of harmful misses and excessive escalation. A model is one hypothesis, not an assumed solution. Synthetic data; production would also need authenticated identities and role-based authorization.</p></div>
             </div></details>
           </article>
 
