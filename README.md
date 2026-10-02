@@ -1,28 +1,47 @@
-# Elle Helvig | HR Transformation & Applied AI
+# Elle Helvig | HR Transformation and Applied AI
 
-A portfolio of practical HR AI tools, responsible AI governance, and enterprise transformation work.
+This site presents my HR transformation work and applied AI projects in one place. It is for hiring managers and collaborators who want a quick route to the work, the evidence, and the limits.
 
-[Live portfolio](https://ellehelvig.github.io/)
+[Open the portfolio](https://ellehelvig.github.io/)
 
-## Featured work
+## Why I built this
 
-- [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook)
-- [Resolve: PeopleOps Resolution Agent](https://github.com/ellehelvig/peopleops-resolution-agent)
-- Global performance transformation
-- People systems prototyping
+I wanted one clear path from my HR operating experience to the tools and work-design choices I am building now. The site connects the career case studies to the source repositories so readers can inspect the implementation and evaluation themselves.
 
-## Local preview
+## View and use
 
-No build step or JavaScript is required. From this directory:
+Start with the featured projects, then open a case study or follow the repository and demo links. The site presents the [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook), [Resolve](https://github.com/ellehelvig/peopleops-resolution-agent), and career work in performance transformation and People systems prototyping.
 
-```sh
+## Local setup
+
+Requires Python 3 for previewing. The site uses static HTML and CSS, with no package installation or build step:
+
+```bash
+git clone https://github.com/ellehelvig/ellehelvig.github.io.git
+cd ellehelvig.github.io
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8000. Check desktop and mobile widths, keyboard navigation, and the expandable case studies before publishing.
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Expand the Resolve case study and follow its evaluation link. Before publishing, check desktop and mobile widths, keyboard navigation, and the case-study disclosures.
 
-## Content maintenance
+## Structure
 
-Project counts should match the linked repositories. At the September 24, 2026 review, the playbook contains 37 use cases, 29 evaluation scenarios, 6 MCP tools, and 52 MCP tool tests. Resolve has a separate 60-case deterministic baseline (60 of 60) and a 16-case held-out set (0 of 16). These are different types of evidence and should not be combined into one performance metric. Resolve contains no language model.
+| File | Purpose |
+|---|---|
+| `index.html` | Portfolio copy, case studies, links, and metadata |
+| `styles.css` | Layout, color, typography, and responsive styles |
+| `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser and device icons |
+| `og-image.png` | Sharing preview image |
+| `.nojekyll` | Serves the static site without Jekyll processing |
 
-Career outcomes are owner-provided claims. Their supporting evidence is not in these public repositories. Demo results use synthetic data and do not establish production readiness.
+## Current status and content maintenance
+
+The site is live. The AI projects are experimental tools and reference designs using synthetic data, not production HR systems.
+
+Resolve's browser demo uses rules. Its source also includes an optional Claude screen that can add routing to a person. The original 60-case regression result and 16-case failure result remain historical evidence; the latter has since informed development. Production use is withheld. Link to the project's [current evidence](https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-methodology.md) rather than treating one score as field accuracy.
+
+Project counts must match the linked repositories. Career outcomes are owner-provided claims; supporting records are not published here. Keep career outcomes separate from synthetic demo results. No confidential employer or employee records belong in this repo.
+
+## Licensing
+
+The site's HTML and CSS implementation is MIT licensed. Personal narrative, names, likenesses, and image assets remain reserved to their respective owners. See [LICENSE](LICENSE). The linked projects have separate licenses.
