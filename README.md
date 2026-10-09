@@ -41,7 +41,3 @@ The site is live. The AI projects are experimental tools and reference designs u
 Resolve's browser demo uses rules. Its source also includes an optional Claude screen that can add routing to a person. The original 60-case regression result and 16-case failure result remain historical evidence; the latter has since informed development. Production use is withheld. Link to the project's [current evidence](https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-methodology.md) rather than treating one score as field accuracy.
 
 Project counts must match the linked repositories. Career outcomes are owner-provided claims; supporting records are not published here. Keep career outcomes separate from synthetic demo results. No confidential employer or employee records belong in this repo.
-
-## Licensing
-
-The site's HTML and CSS implementation is MIT licensed. Personal narrative, names, likenesses, and image assets remain reserved to their respective owners. See [LICENSE](LICENSE). The linked projects have separate licenses.
