@@ -1,16 +1,16 @@
 # Elle Helvig | HR Transformation and Applied AI
 
-This site presents my HR transformation work and applied AI projects in one place. It is for hiring managers and collaborators who want a quick route to the work, the evidence, and the limits.
+This site presents my independent HR AI projects. It gives readers a quick route to the tools, design choices, evidence, and limitations.
 
 [Open the portfolio](https://ellehelvig.github.io/)
 
 ## Why I built this
 
-I wanted one clear path from my HR operating experience to the tools and work-design choices I am building now. The site connects the career case studies to the source repositories so readers can inspect the implementation and evaluation themselves.
+I wanted a clear path from an HR AI idea to inspectable examples of use-case selection, work redesign, and proposed pilot evaluation. The site connects independent project case studies to their source repositories.
 
 ## View and use
 
-Start with the featured projects, then open a case study or follow the repository and demo links. The site presents the [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook), [Resolve](https://github.com/ellehelvig/peopleops-resolution-agent), and career work in talent segmentation and People systems prototyping.
+Start with the featured projects, then open a case study or follow the repository and demo links. The site presents the [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook), [Resolve](https://github.com/ellehelvig/peopleops-resolution-agent).
 
 ## Local setup
 
@@ -40,4 +40,4 @@ The site is live. The AI projects are experimental tools and reference designs u
 
 Resolve's browser demo uses rules. Its source also includes an optional Claude screen that can add routing to a person. The original 60-case regression result and 16-case failure result remain historical evidence; the latter has since informed development. Production use is withheld. Link to the project's [current evidence](https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-methodology.md) rather than treating one score as field accuracy.
 
-Link current technical inventories rather than duplicating permanent test-count claims. Career outcomes are owner-provided claims; supporting records are not published here. Keep career outcomes separate from synthetic demo results. No confidential employer or employee records belong in this repo.
+Link current technical inventories rather than duplicating permanent test-count claims. Keep this site focused on independent projects. Do not add resume files or download links, employment history, employer names or logos, employment accomplishments or metrics, education, credentials, or resume-derived case studies. This boundary also applies to page metadata, structured data, and social-preview assets. Elle’s resume is maintained separately. No confidential employer or employee records belong in this repo.
