@@ -13,6 +13,8 @@
     <meta property="og:image" content="https://ellehelvig.github.io/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Elle Helvig. HR transformation and applied AI. Abstract violet circles." />
+    <meta name="twitter:image:alt" content="Elle Helvig. HR transformation and applied AI. Abstract violet circles." />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://ellehelvig.github.io/og-image.png" />
     <link rel="canonical" href="https://ellehelvig.github.io/" />
@@ -22,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=8a4f1c07" />
+    <link rel="stylesheet" href="styles.css?v=0a676be9" />
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"CollectionPage","name":"Elle Helvig | Independent HR AI Projects","url":"https://ellehelvig.github.io/","description":"Independent HR AI reference tools and synthetic workflow demonstrations.","author":{"@type":"Person","name":"Elle Helvig"}}
     </script>
@@ -45,7 +47,7 @@
           <h1 id="hero-title">Explore how AI could change HR work.</h1>
           <p class="hero-intro">I build reference tools and synthetic demonstrations to explore useful AI opportunities, redesign tasks, and plan responsible adoption. Each project makes the decisions, evidence, and limitations available to inspect.</p>
           <div class="actions">
-            <a class="button primary" href="#work">Explore selected work <span>↓</span></a>
+            <a class="button primary" href="#work">Start with the Playbook <span>↓</span></a>
             <a class="button secondary" href="#contact">Connect <span>↗︎</span></a>
           </div>
         </div>
@@ -63,7 +65,7 @@
           <div class="project-main">
             <p class="project-type">Open-source practitioner toolkit</p>
             <h3>HR AI Transformation Playbook</h3>
-            <p class="summary">Reference tools for HR leaders selecting useful AI opportunities, redesigning work, and planning adoption. Synthetic examples and proposed pilots require local review; no business benefit is claimed.</p>
+            <p class="summary">Choose a worthwhile HR AI opportunity, redesign the work, prepare people to use it, and evaluate whether to proceed. Start with a completed fictional People Partner example, then adapt the tools to your own questions.</p>
             <div class="tags"><span>AI transformation</span><span>Governance</span><span>Work design</span><span>Evaluation</span><span>Manager enablement</span></div>
             <div class="project-links">
               <a href="https://github.com/ellehelvig/hr-ai-transformation-playbook" target="_blank" rel="noreferrer">View repository ↗︎</a>
@@ -82,7 +84,7 @@
             <summary>Read case study <span>+</span></summary>
             <div class="case-grid">
               <div><h4>Problem</h4><p>HR teams need a shared path from an AI idea to a scoped workflow, accountable owners, and a reasoned pilot decision.</p></div>
-              <div><h4>Approach</h4><p>Defined the HR operating problems and designed an HRIS-agnostic system of templates, prompts, notebooks, governance checks, workflow patterns, and evaluations. Built the implementation with AI-assisted development and documented where specialist review remains necessary.</p></div>
+              <div><h4>Approach</h4><p>Framed the HR problems, designed the decision tools and work-redesign examples, and built the demonstrations with AI-assisted development. The proposed pilot connects ownership, manager practice, employee feedback, and evaluation.</p></div>
               <div><h4>Result</h4><p>A public, MIT-licensed reference toolkit with inspectable examples. Adoption, employee outcomes, and production readiness have not been demonstrated.</p></div>
             </div>
           </details>
@@ -93,8 +95,8 @@
             <div class="card-top"><span>02</span><span>Open source</span></div>
             <p class="project-type">Synthetic workflow demonstration</p>
             <h3>Resolve: HR Workflow and Judgment</h3>
-            <p class="summary">A rules-based demonstration with fictional policy references, simulated review, and temporary activity history. Reviewer identities are self-reported. An optional model screen is separate from the browser demo. Known routing failures keep production use withheld.</p>
-            <div class="tags"><span>Workflow design</span><span>Human in the loop</span><span>Evaluation</span><span>MCP</span></div>
+            <p class="summary">Follow a fictional HR request from policy lookup to a draft response and simulated review. Inspect the boundary between routine support and a concern that needs specialist judgment.</p>
+            <div class="tags"><span>Workflow design</span><span>Human in the loop</span><span>Evaluation</span><span>Policy evidence</span></div>
             <div class="project-links">
               <a href="https://github.com/ellehelvig/peopleops-resolution-agent" target="_blank" rel="noreferrer">View repository ↗︎</a>
               <a href="https://ellehelvig.github.io/peopleops-resolution-agent/" target="_blank" rel="noreferrer">Try synthetic-data demo ↗︎</a>
@@ -102,12 +104,13 @@
             </div>
             <details class="case"><summary>Read case study <span>+</span></summary><div class="case-stack">
               <div><h4>Challenge</h4><p>A correctly identified HR topic can still hide a concern requiring specialist handling. The design question is where automation should stop and a person should take ownership.</p></div>
-              <div><h4>Approach</h4><p>Defined the use case and operating requirements, designed the workflow and human-review model, and built the prototype with AI-assisted development. Rules enforce eligibility, policy selection, and approval state. An optional model screen can add routing to a person, but cannot clear a rules stop or approve an outcome. The MCP facade exposes no approval tool. The HTTP review path still lacks authenticated reviewer authority, so this is not end-to-end authorization.</p></div>
-              <div><h4>Outcome</h4><p>The original rules passed 60 of 60 regression cases and 0 of 16 realistically phrased requests. Five Employee Relations or legal concerns missed specialist routing: four received clarification responses, and one entered routine relocation review behind an approval gate. That set has since informed development. Early model-screen results use developer-authored cases and do not establish independent validation. Production use remains withheld pending fresh practitioner-written evaluation. Built on synthetic data.</p></div>
+              <div><h4>Approach</h4><p>Defined the workflow and evaluation questions, then built the prototype with AI-assisted development. The browser demo uses rules and fixed-template responses. Review is simulated, activity history is temporary, and no employment action is executed. An optional model screen is a separate experiment.</p></div>
+              <div><h4>Outcome</h4><p>The original rules passed 60 development cases but met none of the complete pass conditions in 16 developer-authored paraphrases. Missed specialist concerns showed why topic matching alone was insufficient. The preserved evaluation explains those failures and their effect on the design; it does not establish independent validation.</p></div>
             </div></details>
           </article>
 
         </div>
+        <p class="scope-note"><strong>Project scope:</strong> reference tools, proposed pilots, and synthetic demonstrations. No measured business outcomes or production readiness are claimed. Resolve simulates review and remains unsuitable for real HR use. Its <a href="https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-results.md">evaluation evidence and limits</a> are available with the source.</p>
       </section>
 
       <section class="approach" id="approach" aria-labelledby="approach-title">

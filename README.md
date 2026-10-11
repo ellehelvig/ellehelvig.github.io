@@ -36,8 +36,8 @@ Open [http://127.0.0.1:8000](http://127.0.0.1:8000). Expand the Resolve case stu
 
 ## Current status and content maintenance
 
-The site is live. The AI projects are experimental tools and reference designs using synthetic data, not production HR systems.
+The default branch serves the public site. Changes on review branches are not live until publication. The AI projects are experimental tools and reference designs using synthetic data, not production HR systems.
 
 Resolve's browser demo uses rules. Its source also includes an optional Claude screen that can add routing to a person. The original 60-case regression result and 16-case failure result remain historical evidence; the latter has since informed development. Production use is withheld. Link to the project's [current evidence](https://github.com/ellehelvig/peopleops-resolution-agent/blob/main/docs/evaluation-methodology.md) rather than treating one score as field accuracy.
 
-Link current technical inventories rather than duplicating permanent test-count claims. Keep this site focused on independent projects. Do not add resume files or download links, employment history, employer names or logos, employment accomplishments or metrics, education, credentials, or resume-derived case studies. This boundary also applies to page metadata, structured data, and social-preview assets. Elle’s resume is maintained separately. No confidential employer or employee records belong in this repo.
+Link current technical inventories rather than duplicating permanent test-count claims. Keep public content focused on the projects, with a concise introduction, professional links, accurate contribution descriptions, and accessible scope limits. Use synthetic examples only. Keep private source materials and internal review notes out of this repository.
