@@ -200,9 +200,9 @@ a{color:inherit;text-decoration:none}
 .evidence{display:flex;flex-direction:column;justify-content:center}
 .evidence>div{
   display:grid;
-  grid-template-columns:63px 1fr;
+  grid-template-columns:1fr;
   align-items:baseline;
-  gap:13px;
+  gap:8px;
   padding:16px 0;
   border-bottom:1px solid var(--line)
 }
@@ -363,3 +363,10 @@ footer{
   .card-top span:last-child{text-align:left}
 }
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Keep the practitioner journey readable at narrow widths. */
+.scope-note{max-width:850px;margin:30px 0 0;color:var(--muted);font-size:.9rem;line-height:1.75}
+.scope-note a{text-decoration:underline;text-underline-offset:3px}
+.project-main,.evidence{min-width:0}
+@media(min-width:781px) and (max-width:1080px){.featured{grid-template-columns:1fr 1fr}.featured .index{grid-column:1/-1}.featured-case{grid-column:1/-1}}
+@media(max-width:480px){.hero h1{font-size:clamp(2.8rem,12vw,3.55rem)}.project-main h3{font-size:clamp(2rem,10vw,2.5rem)}}
