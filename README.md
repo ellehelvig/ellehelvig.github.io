@@ -1,8 +1,23 @@
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ellehelvig/ellehelvig/3150203bbaecf43cc572a80e2fd6354831224b64/assets/card-portfolio-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/ellehelvig/ellehelvig/3150203bbaecf43cc572a80e2fd6354831224b64/assets/card-portfolio-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ellehelvig/ellehelvig/3150203bbaecf43cc572a80e2fd6354831224b64/assets/card-portfolio-dark.svg">
+  <img alt="Elle Helvig portfolio. Case studies, design choices, and project evidence." src="https://raw.githubusercontent.com/ellehelvig/ellehelvig/3150203bbaecf43cc572a80e2fd6354831224b64/assets/card-portfolio-light.svg" width="100%">
+</picture>
+
 # Elle Helvig | HR Transformation and Applied AI
 
 This site presents my independent HR AI projects. It gives readers a quick route to the tools, design choices, evidence, and limitations.
 
 [Open the portfolio](https://ellehelvig.github.io/)
+
+## At a glance
+
+| Aspect | Summary |
+|:--|:--|
+| **Explore** | [HR AI Transformation Playbook](https://github.com/ellehelvig/hr-ai-transformation-playbook) · [Resolve](https://github.com/ellehelvig/peopleops-resolution-agent) |
+| **Built with** | Static HTML and CSS; Python 3 for local preview. |
+| **Evidence** | Project case studies link to source, evaluation evidence, and limitations. |
 
 ## Why I built this
 
