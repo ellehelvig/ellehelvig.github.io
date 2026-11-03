@@ -1,0 +1,64 @@
+Copyright (c) 2026 Elle Helvig.
+
+The MIT license applies only to the source code and verified original design
+contributions identified below. Personal biography, career history, portraits,
+testimonials, and other non-code content are excluded. All rights reserved in
+Elle's excluded original content. Third-party owners retain their own rights.
+This notice grants no rights to a person's likeness or endorsement.
+
+The exclusions apply wherever that content occurs in the listed files, including
+text embedded in code, SVGs, or screenshots. A file's markup or layout can be MIT
+while its personal text remains reserved. Future personal content is excluded by
+the same rule; update this inventory whenever files are added.
+
+MIT-covered material
+====================
+
+MIT-covered source: the original HTML structure in `index.html`, `styles.css`, and configuration in `.nojekyll`, excluding personal content and third-party material.
+
+MIT-covered original design source: `favicon.svg`, a three-shape SVG recorded in the repository's source history. See `docs/asset-origin.md`. No third-party template was identified in the inspected HTML/CSS; that observation is not proof of independent authorship of every historical upload.
+
+Personal content: excluded file paths
+=====================================
+
+- `README.md`
+- `index.html`
+- `og-image.png`
+
+Personal text in `README.md` and `index.html`, including any biography, career history, contact identity, or testimonials, is all rights reserved. `og-image.png` includes Elle's name and personal positioning. Its generation source is not recorded, so the entire image is excluded from MIT.
+
+No standalone portrait file or testimonial file is tracked in the reviewed tree. Linked GitHub/LinkedIn profile images and personal content remain outside the MIT grant.
+
+Review images: excluded file paths
+==================================
+
+- `docs/review/2026-11-03/readme-after-desktop.jpg`
+- `docs/review/2026-11-03/readme-after-mobile.jpg`
+- `docs/review/2026-11-03/readme-before-desktop.jpg`
+- `docs/review/2026-11-03/readme-before-mobile.jpg`
+
+All rights reserved in Elle's original screenshot content, including any personal biography, career history, portrait, or testimonial. Third-party screenshot content retains its separate rights. These are mixed review records, not MIT design assets.
+
+Unverified uploaded assets: no MIT grant
+========================================
+
+- `apple-touch-icon.png`
+- `favicon-32.png`
+- `og-image.png`
+
+These legacy PNGs were uploaded without a recorded generation source. Visual similarity to original SVG geometry does not establish their complete origin. They remain outside MIT pending source confirmation. All rights reserved in any original content owned by Elle; no rights to third-party material are asserted.
+
+Third-party exceptions and terms
+================================
+
+- Inter, loaded by the Google Fonts stylesheet in `index.html`: SIL Open Font License 1.1, copyright The Inter Project Authors. [Upstream terms](https://github.com/rsms/inter/blob/master/LICENSE.txt).
+- Source Serif 4, loaded by that same stylesheet: SIL Open Font License 1.1, copyright Adobe, with reserved font name Source. [Upstream terms](https://github.com/adobe-fonts/source-serif/blob/release/LICENSE.md).
+
+These are external font dependencies, not MIT assets. No font binaries are vendored here. Font software remains under its upstream terms. Operating-system fallback fonts are also outside this repository's MIT grant; naming a font does not distribute or license it.
+
+GitHub interface elements, logos, trademarks, and third-party material visible in review screenshots are separate exceptions. They are not licensed by Elle under MIT. Their respective owners retain their rights; see [GitHub Terms of Service, Intellectual Property Notice](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#g-intellectual-property-notice). Historical screenshots may also depict project assets from other repositories. A screenshot does not relicense the material it depicts.
+
+Documentation and historical versions
+======================================
+
+Prose documentation and review records are outside the source-code/design MIT grant unless expressly identified above. Historical files, removed content, and assets in other repositories are not relicensed by this notice.

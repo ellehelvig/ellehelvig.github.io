@@ -30,4 +30,8 @@ Edit `index.html` for copy and case studies, and `styles.css` for layout. Check 
 
 Link to current project evidence instead of copying test counts into this site. Use fictional examples only. Keep private source material and real HR data outside the repository.
 
-[MIT license](LICENSE) · [License scope](LICENSE-SCOPE.md) · [Elle Helvig](https://github.com/ellehelvig)
+[MIT license](LICENSE) · [Elle Helvig](https://github.com/ellehelvig)
+
+## Content and rights
+
+[MIT](LICENSE) covers original source code and verified original design contributions only. Personal biography, career history, portraits, and testimonials are **all rights reserved**. Personal content in `README.md` and `index.html` is excluded. `og-image.png`, `apple-touch-icon.png`, and `favicon-32.png` are excluded uploads pending origin confirmation. [NOTICE](NOTICE) lists every excluded file path and third-party exception; the [asset-origin inventory](docs/asset-origin.md) records the checks. Review screenshots are outside MIT.
