@@ -16,3 +16,9 @@ The new `docs/review/2026-11-03` JPEGs are Playwright screenshots from this revi
 ## Third-party font dependencies
 
 `index.html` requests Inter and Source Serif 4 through Google Fonts. Inter uses [SIL Open Font License 1.1](https://github.com/rsms/inter/blob/master/LICENSE.txt); Source Serif uses [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-serif/blob/release/LICENSE.md), including its reserved font-name condition. These are external dependencies, with no vendored font binaries. They remain under their upstream terms, not MIT. System fallback fonts and third-party interface elements in screenshots also remain outside MIT.
+
+## Current teal visual system, 13 November 2026
+
+This section supersedes the legacy-current descriptions above for the icon and sharing-image paths. `favicon.svg` and `social-preview.svg` are original code-native vector designs. `favicon-32.png` and `apple-touch-icon.png` are renderer exports of `favicon.svg`; `og-image.png` is exported from `social-preview.svg`. The export utility is `scripts/render-assets.cjs` using @resvg/resvg-js. No external image or font binary is embedded in the SVGs. System font rendering is environment-dependent. PNG exclusions in NOTICE are retained; source geometry and personal text have separate rights.
+
+The new portfolio diagrams are HTML/CSS illustrations of the reference approach and explicitly labeled synthetic scenarios. They are not product screenshots or additional evaluation evidence.

@@ -25,7 +25,7 @@ Personal content: excluded file paths
 - `index.html`
 - `og-image.png`
 
-Personal text in `README.md` and `index.html`, including any biography, career history, contact identity, or testimonials, is all rights reserved. `og-image.png` includes Elle's name and personal positioning. Its generation source is not recorded, so the entire image is excluded from MIT.
+Personal text in `README.md` and `index.html`, including any biography, career history, contact identity, or testimonials, is all rights reserved. `og-image.png` includes Elle's name and personal positioning. Its entire image remains excluded from MIT; current generation sources are recorded in the visual-refresh inventory.
 
 No standalone portrait file or testimonial file is tracked in the reviewed tree. Linked GitHub/LinkedIn profile images and personal content remain outside the MIT grant.
 
@@ -46,7 +46,7 @@ Unverified uploaded assets: no MIT grant
 - `favicon-32.png`
 - `og-image.png`
 
-These legacy PNGs were uploaded without a recorded generation source. Visual similarity to original SVG geometry does not establish their complete origin. They remain outside MIT pending source confirmation. All rights reserved in any original content owned by Elle; no rights to third-party material are asserted.
+These PNG paths remain outside MIT. The current versions were regenerated on 13 November 2026 from `favicon.svg` and `social-preview.svg`, as recorded in the asset-origin inventory. The original upload history remains a historical record. All rights reserved in any original content owned by Elle; no rights to third-party material are asserted.
 
 Third-party exceptions and terms
 ================================
@@ -62,3 +62,12 @@ Documentation and historical versions
 ======================================
 
 Prose documentation and review records are outside the source-code/design MIT grant unless expressly identified above. Historical files, removed content, and assets in other repositories are not relicensed by this notice.
+
+Visual refresh, 13 November 2026
+================================
+
+Original layout and decorative diagram code in `index.html` and `styles.css`,
+and the original geometry in `social-preview.svg`, are MIT-covered source/design.
+Personal identity and positioning text is reserved wherever embedded. PNG
+exports remain excluded as stated above. System fonts are referenced by name,
+not redistributed. No stock photography or third-party illustration was added.
